@@ -1,0 +1,301 @@
+*
+{
+    margin: 0;
+	padding: 0;
+}
+body
+{
+	background-color: #EFE5AB;
+	margin: 0 auto;
+}
+.main_wrap
+{
+	width: 100%;
+}
+.header_bg
+{
+	background:#FFB522;
+	border-bottom: 5px solid #6B6A10;
+	border-top: 5px solid #6B6A10;
+}
+.wrap
+{
+	width:960px;
+	margin:0 auto;
+}
+header div#header
+{
+	background-color: #FFB522;
+	padding: 15px;
+	border-right: 2px solid #6B6A10;
+	border-left: 2px solid #6B6A10;
+	
+}
+
+header div#header h2
+{
+	color:#FFF1CF;
+	font-family: georgia;
+}
+header div#header p
+{
+	font-family: georgia;
+}
+.nav_bg
+{
+	background:#fff;
+	border-bottom: 5px solid #6B6A10;
+}
+#nav
+{     background-color: #fff ;
+      height: 38px;
+      border-right: 2px solid #6B6A10;
+	border-left: 2px solid #6B6A10;
+
+}
+#nav ul
+{
+		   z-index: 10;
+    background-color: #fff ;
+    list-style-type: none ;
+
+} 
+#nav ul li  
+{
+	float: left;
+    border-right: 1px solid #6B710B ;
+    position: relative;
+}
+
+#nav ul li:last-child
+{
+	border-right: none;
+}
+#nav ul li a
+{
+
+	text-decoration:none;
+	color: #6B710B;
+	display: block;
+	padding: 10px 20px;
+	transition: 0.3s all ease ;
+	font-family: arial;
+}
+#nav ul li a:hover
+{
+	 /*border-top:  5px solid #6B6A10;*/
+	background-color: #6B6A10;
+    color: #fff;
+}
+#nav ul li ul
+{
+	position: absolute;
+	left: -9999px;
+	background-color: #fff;
+}
+#nav ul li:hover ul
+{
+	left: 0;
+}
+#nav ul li ul li
+{
+	
+	border-right: none;
+	border-left: none;
+	border-bottom:1px solid #6B710B ; 
+    width: 200px;
+    position: relative;
+}
+#nav ul li ul li :first-child
+{
+	border-top: 1px solid #6B710B;
+}
+
+#nav li ul li ul
+{
+	top:-9999px;
+	list-style-type:none;
+	position:absolute;
+}
+#nav li ul li:hover ul
+{
+	top:0;
+	left:200px;
+}
+#nav ul li ul li ul li
+{
+	border-left: 1px solid #6B710B;
+   height:37px;
+}
+.slider_bg
+{
+	background:#222222; 
+}
+#slider_wrapper
+{
+   border-right:1px solid #fff;
+   border-left:1px solid #fff;
+  
+}
+.content_bg
+{
+	background: #fff;
+}
+div#content_wrapper
+{
+	border-left:1px solid #000;
+     border-right:1px solid #000;
+	padding: 10px;
+	background-color: #fff;
+	overflow: hidden;
+
+}
+
+div#content_wrapper #content
+{
+	width: 620px;
+	margin-right: 20px;
+	float: left;
+	margin-bottom: 5px;
+}
+div#content_wrapper #content p
+{
+	margin: 20px 0;
+}
+div#content_wrapper #content h2
+{
+	color: #6B710E;
+	margin-bottom: 5px;
+	font-family: arial;
+	font-size: 23px;
+}
+div#content_wrapper #content img
+{
+
+   height: 350px;
+   width: 450px;
+   
+   /*transition: 0.4s ;*/
+}
+div#content_wrapper #content figure
+{
+   height: 370px;
+   width: 450px;
+   background-color: #ddd;
+   padding: 15px ;
+	margin: 0 auto ;
+   display: block;
+}
+div#content_wrapper #content figure figcaption
+{
+	text-align: center;
+	color: red;
+	font-family:fantasy;
+}
+/*div#content_wrapper #content img:hover
+{
+     transform: scale(1.1);
+}*/
+div#content_wrapper #content h3
+{margin-top: 20px ;
+margin-bottom: 10px;
+font-family: arial;
+font-size: 25px;
+color: #6B710E;
+}
+div#content_wrapper #content blockquote 
+{
+	margin-left: 50px;
+	padding: 10px;
+	background: #ddd;
+	padding-left: 20px;
+	border-left: 4px solid orange;
+
+}
+
+div#content_wrapper #content blockquote  p
+{color:#F92453;}
+div#content_wrapper #sidebar
+{
+
+	float: left;
+	width: 298px;
+}
+div#content_wrapper #sidebar ul
+{
+	list-style-type: circle;
+}
+div#content_wrapper #sidebar ul li a
+{
+	
+	text-decoration:none;
+	padding: 4px;
+    display: block; 
+	color: #6B710E;
+}
+
+div#content_wrapper #sidebar ul li a:hover{color: #E81123;}
+div#content_wrapper #sidebar h2
+{
+	color: #6B710E;
+}
+footer div#footer
+{
+	background-color:#625546;
+	padding: 10px;
+	color: #D7C8BE;
+	text-align: center;
+}
+div#content_wrapper #content div#imgp_wrapper 
+{
+   margin-top: 10px;
+} 
+div#content_wrapper #content div#imgp_wrapper img
+{
+	width: 100px;
+	height:100px;
+	float: left;
+	background:#fff;
+    margin-right: 15px;
+    padding: 3px;
+    border:1px solid #ddd;
+}
+div#content_wrapper #content div#imgp_wrapper p
+{
+	float: left;
+	width: 450px;
+	margin-top: 0;
+} 
+#main_article_single
+{
+	margin-bottom: 25px;
+	border-bottom: 2px solid #635548 ;
+	overflow: hidden;
+}
+#main_sidebar
+{
+	margin-bottom: 20px;
+	border-bottom: 3px solid #6B710E ;
+	overflow: hidden;
+
+}
+#main_sidebar ul li 
+{
+	border-bottom: 1px solid red ;
+	margin-bottom: 5px ;
+
+	padding-left: 10px;
+}
+#main_sidebar ul li:last-child
+{
+	border-bottom: none;
+}
+}
+#main_sidebar h2
+{
+	margin-bottom: 10px;
+}
+.footer_bg
+{
+	background: #625546;
+}
